@@ -4,7 +4,7 @@ import requests
 
 def NewsFromBBC():
     # BBC news api
-    main_url = " https://newsapi.org/v1/articles?source=bbc-news&sortBy=top&apiKey=234da64516f34b888220a91bd387d3e2"
+    main_url = " https://newsapi.org/v1/articles?source=bbc-news&sortBy=top&apiKey= YOUR_API_KEY" #You can get the API key from https://newsapi.org/
 
     # fetching data in json format
     open_bbc_page = requests.get(main_url).json()
